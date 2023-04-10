@@ -92,7 +92,7 @@ func main() {
 
 	//Trapecio
 
-	var baseUno float64 = 6
+	var baseUno float64 = 20
 	var baseDos float64 = 18
 	var alturaTrapecio float64 = 25
 
