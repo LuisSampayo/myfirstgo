@@ -33,4 +33,71 @@ func main() {
 	fmt.Println("Area del Cuadrado: ", areaCuadrado)
 
 	fmt.Println("Hello world")
+
+	x := 10
+	y := 50
+
+	//Suma
+	result := x + y
+	fmt.Println("Suma: ", result)
+
+	//Resta
+	result = y - x
+	fmt.Println("Resta: ", result)
+
+	//Multiplicación
+
+	result = x * y
+	fmt.Println("Multiplicación: ", result)
+
+	//División
+
+	result = y / x
+	fmt.Println("División: ", result)
+
+	//Modulo o residuo de la División. útil para saber si es par o no
+
+	result = y % x
+	fmt.Println("Modulo: ", result)
+
+	//Incremental
+
+	x++
+	fmt.Println("Incremental de X: ", x)
+
+	//Decremental
+
+	x--
+	fmt.Println("Decremental de X: ", x)
+
+	//Áreas
+
+	//Rectángulos
+
+	baseRectangulo := 20
+	alturaRectangulo := 10
+
+	areaRectangulo := baseRectangulo * alturaRectangulo
+
+	fmt.Println("El área del rectangulo es: ", areaRectangulo)
+
+	//Círculo
+
+	const pinew float64 = 3.1416
+	var radioCirculo float64 = 10
+
+	areaCirculo := pinew * radioCirculo * radioCirculo
+
+	fmt.Println("El área del círculo  es: ", areaCirculo)
+
+	//Trapecio
+
+	var baseUno float64 = 6
+	var baseDos float64 = 18
+	var alturaTrapecio float64 = 25
+
+	areaTrapecio := ((baseUno * baseDos) * alturaTrapecio) / 2
+
+	fmt.Println("El área del trapecío es: ", areaTrapecio)
+
 }
